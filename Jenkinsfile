@@ -3,7 +3,7 @@ pipline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                sh 'python -m unittest -v test'
             }
         }
     }
