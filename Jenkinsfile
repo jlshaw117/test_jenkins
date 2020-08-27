@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker {image 'python:2.7.16' } }
+    agent any
     stages {
         stage('echo variables') {
             steps {
